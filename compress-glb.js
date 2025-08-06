@@ -154,6 +154,9 @@ class GLBCompressor {
       command += ` --simplify`;
     }
     
+    // 禁用 join 操作以避免某些文件的兼容性问题
+    command += ` --no-join`;
+    
     return command;
   }
 

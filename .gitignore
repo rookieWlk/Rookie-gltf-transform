@@ -1,0 +1,17 @@
+node_modules/
+dist/
+
+# 模型文件
+models/*.glb
+models/*.gltf
+models/*.obj
+models/*.fbx
+models/*.dae
+models/*.3ds
+models/*.blend
+models/*.max
+models/*.ma
+models/*.mb
+
+# 压缩后的文件
+compressed/

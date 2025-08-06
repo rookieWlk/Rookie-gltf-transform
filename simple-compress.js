@@ -91,7 +91,7 @@ class SimpleGLBCompressor {
     
     try {
       // 构建压缩命令
-      const command = `npx gltf-transform optimize "${inputFile}" "${outputFile}" --compress draco --texture-compress webp --texture-size 1024`;
+      const command = `npx gltf-transform optimize "${inputFile}" "${outputFile}" --compress draco --texture-compress webp --texture-size 1024 --no-join`;
       
       console.log(`🔄 正在压缩: ${relativePath}`);
       
