@@ -1,0 +1,23 @@
+{
+  "name": "glb-compressor",
+  "version": "1.0.0",
+  "description": "一键压缩所有 GLB 文件的工具",
+  "main": "compress-glb.js",
+  "scripts": {
+    "compress": "node compress-glb.js",
+    "compress:watch": "node compress-glb.js --watch",
+    "compress:simple": "node simple-compress.js"
+  },
+  "dependencies": {
+    "@gltf-transform/cli": "^3.0.0",
+    "@gltf-transform/core": "^3.0.0",
+    "@gltf-transform/extensions": "^3.0.0",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.10",
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0"
+  },
+  "keywords": ["glb", "gltf", "compression", "optimization"],
+  "author": "",
+  "license": "MIT"
+} 
